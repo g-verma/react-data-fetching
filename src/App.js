@@ -5,11 +5,11 @@ import AxiosApproach from './AxiosApproach';
 import AsyncAwaitApproach from './AsyncAwaitApproach';
 import HigherOrderComponentApproach from './HigherOrderComponentApproach';
 import RenderPropApproach from './RenderPropApproach';
-import ShowList from './ownApi';
+import List from './ownApi';
 
 const App = () =>
   <Fragment>
-    <ShowList />
+    <List />
   </Fragment>
   // <RenderPropApproach />
   // <FetchApproach />
